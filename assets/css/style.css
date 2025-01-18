@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url("../images/eminem.jpg"); Background image */
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    margin-top: 10%;
+}
+
+fieldset {
+    background-color: #1e1e1e; /* Secondary dark background */
+    border: 1px solid #0ef; /* Neon cyan border */
+    padding: 20px;
+    width: 320px; /* Slightly increased width for better spacing */
+    box-shadow: 0 0 15px rgba(14, 239, 255, 0.5); /* Neon glow */
+    border-radius: 8px;
+    text-align: center; /* Align text to center */
+}
+
+legend {
+    font-size: 1.4em; /* Increased font size for better visibility */
+    font-weight: bold;
+    color: #0ef; /* Neon cyan text */
+    margin-bottom: 15px; /* Added margin for spacing */
+}
+
+table {
+    width: 100%;
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+td {
+    padding: 10px;
+    text-align: left; /* Align text left inside the cells */
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #0ef; /* Neon cyan border */
+    border-radius: 4px;
+    background-color: #1e1e1e; /* Matching background */
+    color: #e0e0e0; /* Light text color */
+    font-size: 1em; /* Ensuring consistent font size */
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #0ef; /* Neon cyan button */
+    color: #121212; /* Dark text for contrast */
+    padding: 12px 24px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em; /* Consistent font size */
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #0bccd8; /* Slightly darker cyan for hover effect */
+}
+
+a input[type="button"] {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: #0ef; /* Neon cyan for button link */
+    color: #121212; /* Dark text for contrast */
+    padding: 10px 24px; /* Consistent padding */
+    font-size: 1em; /* Consistent font size */
+}
+
+a input[type="button"]:hover {
+    background-color: #0bccd8; /* Slightly darker cyan for hover effect */
+}
