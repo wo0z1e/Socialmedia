@@ -11,9 +11,9 @@
     <center>
         <fieldset style="width: 0;">
             <Legend>Registration</Legend>
-            <form action="../controller/registrationcheck.php" method="post">
+            <form action="../controller/regchck.php" method="post">
                 <table>
-                   
+
                     <tr>
                         <th>First Name </th>
                         <td><input type="text" name="fname"></td>
@@ -29,9 +29,7 @@
                         <th>Email</th>
                         <td><input type="text" name="email"></td>
                     </tr>
-                    <tr>
-                        <hr>
-                    </tr>
+
                     <tr>
                         <th>DOB</th>
                         <td><input type="date" name="dob"></td>
@@ -70,9 +68,16 @@
                         <td></td>
                         <td align="right">
 
-                            <input type="submit" name="signin" value="Sign In">
-                            <input type="submit" name="signup" value="Sign Up">
+                            <input type="submit" name="submit" value="Register">
+
                         </td>
+                    </tr>
+                    <tr>
+                    
+                        <td colspan="2" >
+                            <p>Already have an account . <a href="login.php">Click Here</a></p>
+                        </td>
+                        <td></td>
                     </tr>
                 </table>
             </form>
